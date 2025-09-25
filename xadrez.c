@@ -34,6 +34,7 @@ int main (){
         printf("Baixo %d\n", cavalo);
 
         int i = 0;
+        //Loop interno.
         while (cavalo == 2 && i < 1)//Executa só no segundo "baixo".
         {
             printf("Esquerda 1\n");
