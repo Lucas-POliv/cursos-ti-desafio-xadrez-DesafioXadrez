@@ -25,7 +25,21 @@ int main (){
         printf("Esquerda %d\n", rainha);
         rainha++;
     } while (rainha <= 8);
-        
 
+    //Move o cavalo em forma de "L".
+    printf("\nMovimento cavalo\n");
+
+    for(int cavalo = 1; cavalo < 3; cavalo++) //Loop externo: Faz sair duas casas para baixo
+    {
+        printf("Baixo %d\n", cavalo);
+
+        int i = 0;
+        while (cavalo == 2 && i < 1)//Executa só no segundo "baixo".
+        {
+            printf("Esquerda 1\n");
+            i++;
+        }  
+    }
+        
     return 0;
 }
